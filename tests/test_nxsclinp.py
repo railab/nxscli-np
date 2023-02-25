@@ -1,6 +1,6 @@
 import nxscli_np
-import nxscli_np.ext_plugins
 import nxscli_np.ext_commands
+import nxscli_np.ext_plugins
 
 
 def test_nxsclinp():
