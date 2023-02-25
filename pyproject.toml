@@ -17,7 +17,8 @@ dependencies = [
 ]
 
 [project.entry-points."nxscli.extensions"]
-nxscli_np = "nxscli_np.plugin"
+plugins = "nxscli_np.ext_plugins"
+commands = "nxscli_np.ext_commands"
 
 [tool.black]
 line-length = 79
