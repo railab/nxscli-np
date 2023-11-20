@@ -1,1 +1,1 @@
-include src/nxscli/py.typed
+include src/nxscli-np/py.typed
