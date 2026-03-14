@@ -4,14 +4,15 @@ build-backend = 'setuptools.build_meta'
 
 [project]
 name = "nxscli_np"
-version = "0.5.0"
+version = "0.5.1"
 authors = [{name = "raiden00", email = "raiden00@railab.me"}]
 description = "Nxscli Numpy extension"
 license = {text = "Apache-2.0"}
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-         "nxscli>=0.5.0",
+         "nxslib==0.9.1",
+         "nxscli==0.5.1",
          "numpy>=1.24.2",
          "click>=8.1"
 ]
